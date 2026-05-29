@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeportMax — Zapatos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style_AS_JC.css"/>
+  <link rel="stylesheet" href="Zapatos_AS_JC.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index_AS_JC.html" class="logo">Deport<span>Max</span></a>
+    <ul class="nav-links">
+      <li><a href="index_AS_JC.html#productos">Productos</a></li>
+      <li><a href="index_AS_JC.html#categorias">Categorías</a></li>
+      <li><a href="index_AS_JC.html#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- BOTÓN REGRESAR -->
+  <a href="index_AS_JC.html" class="btn-back">← Regresar al inicio</a>
+
+  <!-- HERO DE PÁGINA -->
+  <div class="page-hero">
+    <div class="eyebrow">Colección 2026</div>
+    <h1>ZAPATOS <span>DEPORTIVOS</span></h1>
+    <p>Encuentra el calzado ideal para tu deporte y estilo de vida.</p>
+  </div>
+
+  <!-- PRODUCTOS -->
+  <div class="productos-page">
+
+    <!-- PRODUCTO 1 -->
+    <div class="prod-card reveal">
+      <div class="prod-img-wrap" onclick="triggerUpload('img1','file1')">
+        <img id="img1" src="imagenes/zapasA.jpg" alt="" style="display:block"/>
+        <div class="prod-placeholder" id="ph1"></div>
+        
+      </div>
+      <div class="prod-info">
+        <div class="prod-cat">Adidas</div>
+        <div class="prod-name">Zapatos Argentina 2026</div>
+
+        <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+        <div class="prod-footer">
+          <div class="prod-price"><span class="new">Q 800</span></div>
+          <button class="prod-add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 2 -->
+    <div class="prod-card reveal">
+      <div class="prod-img-wrap" onclick="triggerUpload('img2','file2')">
+        <img id="img2" src="imagenes/ZapatosM.jpg" alt="" style="display:block"/>
+        <div class="prod-placeholder" id="ph2"></div>
+        
+      </div>
+      <div class="prod-info">
+        <div class="prod-cat">Adidas</div>
+        <div class="prod-name">Zapatos Mundial 2026</div>
+
+        <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+        <div class="prod-footer">
+          <div class="prod-price">
+            <span class="new">Q 510</span>
+          </div>
+          <button class="prod-add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 3 -->
+    <div class="prod-card reveal">
+      <div class="prod-img-wrap" onclick="triggerUpload('img3','file3')">
+        <img id="img3" src="imagenes/ZapasNike.jpg" alt="" style="display:block"/>
+        <div class="prod-placeholder" id="ph3"></div>
+        
+      </div>
+      <div class="prod-info">
+        <div class="prod-cat">Nike</div>
+        <div class="prod-name">Zapatos DEPORTIVOS</div>
+
+        <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+        <div class="prod-footer">
+          <div class="prod-price"><span class="new">Q 1,064</span></div>
+          <button class="prod-add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 4 -->
+    <div class="prod-card reveal">
+      <div class="prod-img-wrap" onclick="triggerUpload('img4','file4')">
+        <img id="img4" src="imagenes/ZapatosNike.jpg" alt="" style="display:block"/>
+        <div class="prod-placeholder" id="ph4"></div>
+        
+      </div>
+      <div class="prod-info">
+        <div class="prod-cat">Nike</div>
+        <div class="prod-name">Zapatos Casuales</div>
+        
+        <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+        <div class="prod-footer">
+          <div class="prod-price">
+            <span class="old">Q 800</span>
+            <span class="new">Q 620</span>
+          </div>
+          <button class="prod-add">+</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<div>
+  <div class="footer-col-title">Contáctanos</div>
+  <ul class="footer-links">
+    <li>
+      <a href="https://www.instagram.com/deportmax26/" target="_blank">📷 Instagram</a>
+    </li>
+    <li>
+      <a href="mailto:deportmax@gmail.com">✉️ deportmax@gmail.com</a>
+    </li>
+    <li>
+      <a href="tel:+50212345678">📞 +502 1234 5678</a>
+    </li>
+  </ul>
+</div>
+  <script src="script_AS_JC.js"></script>
+  <script>
+    function triggerUpload(imgId, fileId) {
+      document.getElementById(fileId).click();
+    }
+    function loadImg(input, imgId, phId) {
+      if (!input.files || !input.files[0]) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const img = document.getElementById(imgId);
+        const ph  = document.getElementById(phId);
+        img.src = e.target.result;
+        img.style.display = 'block';
+        ph.style.display  = 'none';
+      };
+      reader.readAsDataURL(input.files[0]);
+    }
+  </script>
+</body>
+</html>
