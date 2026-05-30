@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeportMax — Tu Tienda Deportiva</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="style_AS_JC.css"/>
+   
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo">Deport<span>Max</span></a>
+    <ul class="nav-links">
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#categorias">Categorías</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="Acerca de_AS_JC.html">Acerca De</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-eyebrow">Colección 2026</div>
+    <h1>TU EQUIPO,<span>TU NIVEL.</span></h1>
+    <p>Ropa deportiva, calzado y accesorios de alto rendimiento para quienes viven el deporte.</p>
+    <a href="#productos" class="hero-btn">Ver Productos</a>
+    <div class="hero-badges">
+      <div class="badge"><div class="badge-num">+200</div><div class="badge-lbl">Productos</div></div>
+      <div class="badge"><div class="badge-num">15+</div><div class="badge-lbl">Marcas</div></div>
+      <div class="badge"><div class="badge-num">5★</div><div class="badge-lbl">Calificación</div></div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section" id="productos">
+    <h2 class="section-title reveal">PRODUCTOS <span>DESTACADOS</span></h2>
+
+    
+
+    <div class="productos-grid">
+
+      <!-- PRODUCTO 1 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img1','file1')">
+          <img id="img1" src="imagenes/zapasA.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+          
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Calzado</div>
+          <div class="prod-name">Zapatos Adidas Argentina</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price"><span class="new">Q 800</span></div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 2 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img2','file2')">
+          <img id="img2" src="imagenes/Argentina.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+          
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Camisola</div>
+          <div class="prod-name">Camisola Argentina 2026</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">S</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">M</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">L</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">XL</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price">
+              <span class="old">Q 250</span>
+              <span class="new">Q 175</span>
+            </div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 3 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img3','file3')">
+          <img id="img3" src="imagenes/ShortA.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+         
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Short</div>
+          <div class="prod-name">Short Argentina 2026</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">S</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">M</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">L</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">XL</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price"><span class="new">Q 155</span></div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 4 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img4','file4')">
+          <img id="img4" src="imagenes/ZapatosM.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+          
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Calzado</div>
+          <div class="prod-name">Zapatos Adidas Mundial</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">38</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">39</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">40</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">41</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">42</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price"><span class="new">Q 510</span></div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 5 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img5','file5')">
+          <img id="img5" src="imagenes/BrasilP.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+         
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Camisola</div>
+          <div class="prod-name">Camisola Brasil 2026</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">S</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">M</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">L</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">XL</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price">
+                <span class="old">Q 250</span>
+                <span class="new">Q 175</span>
+            </div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 6 -->
+      <div class="prod-card reveal">
+        <div class="prod-img-wrap" onclick="triggerUpload('img6','file6')">
+          <img id="img6" src="imagenes/ShortB.jpg" alt="" style="display:block"/>
+          <div class="img-overlay">
+          </div>
+          
+        </div>
+        <div class="prod-info">
+          <div class="prod-cat">Short</div>
+          <div class="prod-name">Short Brasil 2026</div>
+          <div class="tallas">
+  <div class="talla-label">Talla:</div>
+  <div class="tallas-opciones">
+    <button class="talla-btn" onclick="seleccionarTalla(this)">S</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">M</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">L</button>
+    <button class="talla-btn" onclick="seleccionarTalla(this)">XL</button>
+  </div>
+</div>
+          <div class="prod-footer">
+            <div class="prod-price">
+              <span class="new">Q 155</span>
+            </div>
+            <button class="prod-add">+</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="section" id="categorias">
+    <h2 class="section-title reveal">EXPLORA POR <span>CATEGORÍA</span></h2>
+    <div class="cats-grid">
+      <a href="Camisolas_AS_JC.html" class="cat-card reveal">
+        <div class="cat-icon">
+          <img src="imagenes/Camisolas.jpg" alt="Camisolas"/>
+        </div>
+        <div class="cat-name">Camisolas</div>
+        <div class="cat-count">Camisolas del mundial 2026</div>
+      </a>
+      <a href="Shorts_AS_JC.html" class="cat-card reveal">
+        <div class="cat-icon">
+          <img src="imagenes/Shorts.jpg" alt="Shorts"/>
+        </div>
+        <div class="cat-name">Shorts</div>
+        <div class="cat-count">Shorts del mundial 2026</div>
+      </a>
+      <a href="Zapatos_AS_JC.html" class="cat-card reveal">
+        <div class="cat-icon">
+          <img src="imagenes/Zapatos.jpg" alt="Zapatos"/>
+        </div>
+        <div class="cat-name">Zapatos</div>
+        <div class="cat-count">Adidas y Nike</div>
+      </a>
+      
+    </div>
+  </section>
+
+  <!-- BANNER -->
+  <div class="banner">
+    <div class="banner-bg">40%</div>
+    <h2>OFERTA ESPECIAL DE TEMPORADA</h2>
+    <p>Hasta 30% de descuento en ropa y calzado seleccionado. ¡Por tiempo limitado!</p>
+    <a href="#productos" class="banner-btn">Ver Ofertas →</a>
+  </div>
+<!-- MISIÓN Y VISIÓN -->
+<section class="section" id="mision">
+  <h2 class="section-title" style="text-align:center;">NUESTRA <span>EMPRESA</span></h2>
+  <div style="display:flex; gap:2rem; max-width:900px; margin:0 auto;">
+
+    <div style="flex:1; background:var(--gris1); border-left:3px solid var(--naranja); padding:2rem;">
+      <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; letter-spacing:2px; color:var(--naranja); margin-bottom:1rem;">MISIÓN</h3>
+      <p style="color:#888; line-height:1.8; font-size:.95rem;">Ofrecer ropa deportiva cómoda, moderna y de buena calidad para que nuestros clientes se sientan seguros y motivados en su día a día.</p>
+    </div>
+
+    <div style="flex:1; background:var(--gris1); border-left:3px solid var(--naranja); padding:2rem;">
+      <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; letter-spacing:2px; color:var(--naranja); margin-bottom:1rem;">VISIÓN</h3>
+      <p style="color:#888; line-height:1.8; font-size:.95rem;">Ser una tienda reconocida por su estilo y buen servicio, inspirando a más personas a vestir con comodidad y actitud deportiva.</p>
+    </div>
+
+  </div>
+</section>
+  <!-- FOOTER -->
+  <footer id="contacto">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Deport<span>Max</span></div>
+        <p class="footer-desc">Tu tienda deportiva de confianza. Calidad, rendimiento y estilo en cada producto.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Tienda</div>
+        <ul class="footer-links">
+          <li><a href="#">Ropa Deportiva</a></li>
+          <li><a href="#">Calzado</a></li>
+          <li><a href="#">Accesorios</a></li>
+          <li><a href="#">Ofertas</a></li>
+        </ul>
+      </div>
+      <div>
+  <div class="footer-col-title">Contáctanos</div>
+  <ul class="footer-links">
+    <li>
+      <a href="https://www.instagram.com/deportmax26/" target="_blank">📷 Instagram</a>
+    </li>
+    <li>
+      <a href="mailto:deportmax@gmail.com">✉️ deportmax@gmail.com</a>
+    </li>
+    <li>
+      <a href="tel:+50212345678">📞 +502 1234 5678</a>
+    </li>
+  </ul>
+</div>
+    </div>
+   <div class="footer-bottom">
+  <p>2026 DeportMax Guatemala. Todos los derechos reservados.</p>
+ 
+</div>
+  </footer>
+  <script src="script_AS_JC.js"></script>
+</body>
+</html>
